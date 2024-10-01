@@ -1,0 +1,7 @@
+{
+    "BIDSVersion": "1.6.0",
+    "Name": "Testing neural mechanisms of event segmentation with fMRI",
+    "DatasetType": "raw",
+    "License": "Apache-2.0",
+    "Authors": ["Matthew Bezdek","Jeffrey Zacks"]
+}
