@@ -1,12 +1,4 @@
 {
-  "onset": {
-      "Description": "Onset (in seconds) of the event, measured from the first frame of the run (_bold.nii.gz).",
-      "Units": "number"
-    },
-  "duration": {
-      "Description": "Duration (in seconds) of the event.",
-      "Units": "number"
-    },
   "trial_type": {
     "Description": "Event type. Most of each run was spent watching a single movie, with short fixation periods before and after.",
     "Levels": 
@@ -14,9 +6,10 @@
         "fixation": "fixation cross before or after the movie",
         "movie": "movie being shown"
       }
+    
   },
   "stim_name": {
-      "Description": "Name of the movie shown in this run. All participants viewed the same four movies in the same order: run 1: 1.2.3; run 2: 6.3.9; run 3: 3.1.3; run 4: 2.4.1.",
+      "Description": "Name of the movie shown in this run. All participants viewed the same four movies in the same order: run 1: 1.2.3; run 2: 6.3.9; run 3: 3.1.3; run 4: 2.4.1. Stimuli files are available at https://osf.io/v562e/ (DOI 10.17605/OSF.IO/3EMBR).",
       "Units": "string"
     }
 }
