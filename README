@@ -1,5 +1,17 @@
 Testing neural mechanisms of event segmentation with fMRI
 
-In this study, healthy young adults viewed extended movie sequences of actors performing everyday activities while their brain activity was measured with fMRI. In a follow-up session, they completed recall and recognition memory tests and segmented the movies into events at coarse and fine grains.
+In this study, 47 healthy young adults viewed extended movie sequences of actors performing 4 different everyday activities while their brain activity was measured with fMRI. BIDS-compatible data are in sub-<participant_id> directories. BIDSifying scripts are in the code/ directory.
 
-an edit
+In a follow-up session, they completed recall and recognition memory tests and segmented the movies into events at coarse and fine grains. Memory and event segmentation data are in the derivatives/data/raw/behavioral/exp152_Session_2/ directory. We also obtained event segmentation data from an online (MTurk) normative group (Bezdek et al., 2022), which are in the derivatives/data/raw/behavioral/mturk_segmentation_data/ directory. The normative group's event segmentation data had higher quality and were used instead of the fMRI participants' event segmentation data.
+
+Data processing and analysis scripts, processed data, data quality checks, statistical results, and figures are in the derivatives/ directory. Please see the derivatives/README.md file for more details.
+
+
+Bezdek, M. A., Nguyen, T. T., Hall, C. S., Braver, T. S., Bobick, A. F., & Zacks, J. M. (2022). The multi-angle extended three-dimensional activities (META) stimulus set: A tool for studying event cognition. Behavior Research Methods. https://doi.org/10.3758/s13428-022-01980-8
+
+
+
+
+
+
+
